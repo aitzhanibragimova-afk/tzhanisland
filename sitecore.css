@@ -1,0 +1,81 @@
+sitecore
+ 
+/* ---- 1. General Settings and Background (Body) ---- */
+body {
+    /* Soft pink background (Misty Rose) */
+    background-color: #ffe4e1; 
+    /* Readable font stack */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 17px; 
+    /* Set maximum width and center content */
+    max-width: 900px;
+    margin: 0 auto; /* Center alignment */
+    padding: 25px;
+    color: #444; /* Dark gray for good contrast */
+}
+
+/* ---- 2. Headings (h1, h2) ---- */
+h1 {
+    /* More stylish, delicate font for the main title */
+    font-family: Garamond, Georgia, serif;
+    font-size: 2.8em; 
+    color: #8b0000; /* Deep maroon/burgundy for elegance */
+    text-align: center;
+    margin-top: 35px;
+    /* Soft pink accent line beneath the title */
+    border-bottom: 3px solid #ffc0cb; 
+    padding-bottom: 15px;
+    letter-spacing: 1px; /* Small spacing between letters */
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #d81b60; /* Bright pink for emphasis */
+    margin-top: 40px;
+    /* Bold pink vertical bar on the left */
+    border-left: 6px solid #ffc0cb; 
+    padding-left: 12px;
+}
+
+/* ---- 3. Paragraphs and Lists (p, ul, ol) ---- */
+p {
+    line-height: 1.7; /* Increased line spacing for readability */
+    margin-bottom: 18px;
+}
+
+ul, ol {
+    padding-left: 30px;
+    line-height: 1.8;
+}
+
+/* Link Styling */
+a {
+    color: #d81b60; /* Bright raspberry color for links */
+    text-decoration: none; /* Remove default underline */
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline; /* Show underline on hover */
+    color: #a80040;
+}
+
+/* ---- 4. Image Styling (img) ---- */
+img {
+    /* Restrict image width to fit container */
+    max-width: 100%;
+    height: auto;
+    /* Add a subtle shadow for a 'lifted' effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    display: block; 
+    margin: 25px auto; /* Center the image */
+    border-radius: 10px; /* Gently round the corners */
+    border: 3px solid white; /* Add a thin white border */
+}
+
+/* ---- 5. Separator (hr) ---- */
+hr {
+    border: none;
+    border-top: 2px dashed #ffc0cb; /* Soft pink dashed line */
+    margin: 50px 0;
+}
